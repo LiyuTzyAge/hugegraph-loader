@@ -217,6 +217,7 @@ public final class HugeGraphLoader {
             if (this.context.stopped()) {
                 return;
             }
+
             try {
                 if (reader.hasNext()) {
                     lines.add(reader.next());
